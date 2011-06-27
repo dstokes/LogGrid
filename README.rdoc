@@ -1,3 +1,4 @@
+= LogGrid.js
 A canvas implementation of a driver daily log grid.  This is a prototype I built for a project that was scrapped.
 
 Basic usage:
