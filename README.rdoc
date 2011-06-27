@@ -1,0 +1,11 @@
+A canvas implementation of a driver daily log grid.  This is a prototype I built for a project that was scrapped.
+
+Basic usage:
+  var gridObj = new Grid(element, {
+    readOnly: false,
+    onUpdate: function() {} //Callback each time line is changed
+  });
+
+The grid inherits dimensions from the containing element.  You generally want to make your width divisible by 96, and your height divisible by 4 to ensure you have clean lines.
+
+To see a demo: http://drewstokes.com/lab/logGrid.php
