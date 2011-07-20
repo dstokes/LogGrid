@@ -164,7 +164,7 @@ var Grid = (function() {
         mouseoutHandler: function(e) {
             if( this.drag.range && this.drag.range.end > 93 ) {
                 this.drag.range.end = 96;
-                this.mouseUpHandler();
+                this.mouseupHandler();
             }
         },
         
